@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+}
+
+$PrimaryColorBlack:#000000;
+$PrimaryColorRed:#AE1332;
+$PrimaryColorGreen:#A4CB66;
+$PrimaryColorYellow:#F5CE13;
+$PrimaryColorWhite:#ffff;
+
+
+.header{
+    display: flex;
+    width: 1280px;
+    height: 50px;
+    padding-left: 32px;
+    align-items: center;
+    margin: auto;
+
+    &__flex{
+    display: flex;
+    gap: 8px;
+    margin-left: 322px;
+
+    }
+
+    &__nav{
+
+        &__menu{
+            display: flex;
+            align-items: start;
+            gap: 10px;
+        }
+    }
+}
